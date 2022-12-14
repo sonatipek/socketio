@@ -19,7 +19,7 @@
     let myInput = document.querySelector('input');
 
 
-    var socket = io("http://10.135.109.87:8081");
+    var socket = io("http://155.223.241.1");
 
     socket.on('connect', function() {
         socket.emit('test', {data: 'Im connected!'});
